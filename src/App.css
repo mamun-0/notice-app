@@ -1,0 +1,118 @@
+:root {
+  --color-primary: #3c89ed;
+  --color-white: rgb(255, 255, 255);
+}
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+html {
+  font-size: 62.5%;
+}
+body {
+  font-family: "Titillium Web", sans-serif;
+  background: rgb(61, 22, 51);
+  overflow-x: hidden;
+}
+@media screen and (max-width:768px) {
+  body{
+    overflow-x: hidden;
+  }
+}
+h1,
+h2,
+h3,
+p {
+  margin-bottom: 1rem;
+}
+h1 {
+  font-size: 7rem;
+}
+h2 {
+  font-size: 4rem;
+}
+h3 {
+  font-size: 3rem;
+}
+a {
+  text-decoration: none;
+  color: #fff;
+  transition: color 0.4s;
+}
+a:hover{
+  color:tomato;
+}
+/* Buttons */
+.btn {
+  width: 100%;
+  background: tomato;
+  color: #fff;
+  padding: 0.5rem;
+  font-size: 2rem;
+  text-align: center;
+  border-radius: 2rem;
+}
+.show-more{
+  display: flex;
+  flex-direction: column-reverse;
+  padding: 1rem;
+}
+.btn:hover {
+  background: #000;
+}
+.btn-primary {
+  background: rgb(54, 64, 97);
+  text-align: center;
+  color: #fff;
+}
+@media screen and (min-width: 768px) {
+  .btn {
+    width: 50%;
+  }
+}
+/* Icons */
+.icon {
+  width: 40px;
+  height: 40px;
+  cursor: pointer;
+}
+.icon--primary {
+  fill: rgb(255, 255, 255);
+}
+.icon-stretch {
+  padding-right: 1rem;
+}
+/* Grids */
+.grid {
+  display: grid;
+  grid-gap: 20px;
+}
+.align-center {
+  align-items: center;
+}
+.grid-page-padding{
+  padding: 2rem;
+}
+@media screen and (min-width: 768px) {
+  .grid--1x2 {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media screen and (min-width: 768px) {
+  .grid--1x3 {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+@media screen and (min-width: 1024px) {
+  .grid--1x4 {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+/* No letter and Word Spacing */
+.nospace {
+  word-spacing: 0;
+  letter-spacing: 0;
+}

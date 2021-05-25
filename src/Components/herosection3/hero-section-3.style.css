@@ -1,0 +1,45 @@
+.hero3 {
+  height: 80vh;
+  background: url("./background//hero3.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  grid-gap: 10px;
+  align-content: center;
+}
+.left-hero3{
+background: tomato;
+text-align: center;
+border: 2px solid tomato;
+padding: 1rem;
+}
+.left-hero3 p{
+  font-size: 4rem;
+  letter-spacing: 1px;
+}
+.left-hero3 a{
+  color: #000;
+ background: #fff;
+ border-radius: 3px;
+ border: 1px solid #fff;
+ font-size: 2rem;
+ padding: 5px 10px;
+}
+.right-hero3{
+  border: 2px solid rgb(230, 8, 219);
+  background: turquoise;
+  padding: 1.5rem;
+  text-align: center;
+}
+.right-hero3 p{
+  font-size: 4rem;
+  letter-spacing: 1px;
+}
+.right-hero3 a{
+  background: #fff;
+  border-radius: 3px;
+  border: 1px solid #fff;
+  color: #000;
+  font-size: 2rem;
+  padding: 5px 10px;
+ }

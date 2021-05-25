@@ -1,0 +1,25 @@
+/* Footer */
+footer {
+  height: 20vh;
+}
+.f-background {
+  background: rgb(255, 255, 255);
+}
+.footer__para {
+  font-size: 1.5rem;
+  text-align: center;
+  word-spacing: 0;
+  color: rgb(0, 0, 0);
+}
+.footer--social__icon {
+  text-align: center;
+}
+.footer--social__icon a img {
+  margin-left: .3rem;
+  padding: .4rem;
+}
+@media screen and (min-width: 768px) {
+  .footer__para {
+    font-size: 2rem;
+  }
+}

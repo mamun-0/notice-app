@@ -1,0 +1,21 @@
+/* Notice */
+.notice--card {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  height: 40vh;
+  padding: 0.5rem;
+  background: dodgerblue;
+  border-radius: 25px;
+}
+.notice__discription {
+  font-size: 2rem;
+  height: 20vh;
+  margin-bottom: 2rem;
+  padding: 1rem;
+  overflow-y: scroll;
+}
+.notice__published {
+  font-size: 1.5rem;
+  padding: 1rem;
+}

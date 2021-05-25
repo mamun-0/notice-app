@@ -1,0 +1,30 @@
+/* Schedule Card Section*/
+.schedule-card {
+  display: flex;
+  color: var(--color-white);
+  flex-direction: column;
+  align-items: center;
+  border: 2px dashed;
+  padding: 1rem 0;
+  border-radius: 25px;
+}
+.crd-clr {
+  background: var(--color-primary);
+}
+.list {
+  list-style: none;
+  padding-left: 1.5rem;
+  font-size: 2rem;
+}
+.list__item {
+  padding-left: 0.5rem;
+  margin-bottom: 1rem;
+}
+.list__item span {
+  font-weight: 600;
+}
+@media screen and (min-width: 1024px) {
+  .list__item {
+    padding-left: 0;
+  }
+}

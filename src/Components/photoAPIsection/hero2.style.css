@@ -1,0 +1,49 @@
+.moto {
+  height: 80vh;
+  text-align: center;
+  grid-gap: 0;
+}
+.learn {
+  background: url("./background/learn.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+  transition: all 0.5s ease;
+}
+.common-rule h2{
+  color: #fff;
+}
+.common-rule{
+  opacity: .6;
+  transition: all 0.5s ease;
+}
+.think {
+  background: url('./background/think.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+}
+.innovate{
+  background: url('./background//innovate.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+}
+.learn:hover{
+  background: linear-gradient(rgb(160, 102, 102),rgb(176, 195, 216));
+  opacity: 1;
+}
+.think:hover{
+  background: linear-gradient(rgb(97, 68, 68),rgb(228, 215, 29));
+  opacity: 1;
+}
+.innovate:hover{
+  background: linear-gradient(rgb(184, 29, 29),rgb(114, 79, 26));
+  opacity: 1;
+}

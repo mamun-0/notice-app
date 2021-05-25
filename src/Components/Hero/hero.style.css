@@ -1,0 +1,36 @@
+/* Hero Section */
+.hero {
+  /* margin-top: -1.47rem; */
+  align-items: center;
+  clip-path: polygon(0% 0%, 100% 0%, 100% 90%, 0% 100%);
+}
+.background-img {
+  background: url("../../media/cse8th.jpg");
+  height: 95vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.hero__left {
+  padding-left: 2rem;
+}
+.hero__left h1,
+p {
+  color: #fff;
+  word-spacing: 1rem;
+  letter-spacing: 0.5rem;
+}
+.hero__left h1 {
+  font-size: 2rem;
+}
+.hero__left p {
+  font-size: 1.5rem;
+}
+@media screen and (min-width: 768px) {
+  .hero__left h1 {
+    font-size: 4rem;
+  }
+  .hero__left p {
+    font-size: 2rem;
+  }
+}
