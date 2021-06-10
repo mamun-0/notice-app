@@ -1,0 +1,17 @@
+.search {
+  -webkit-appearance: none;
+  border: 2px solid rgb(70, 6, 189);
+  border-radius: 2rem;
+  margin-top: 1rem;
+  outline: none;
+  padding: 10px;
+  width: 50vw;
+  line-height: 20px;
+  text-align: center;
+  margin-bottom: 30px;
+}
+@media screen and (max-width:768px) {
+  .search{
+    width: 100vh;
+  }
+}
