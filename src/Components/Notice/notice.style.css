@@ -1,19 +1,25 @@
 /* Notice */
+.notice-wrap{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
 .notice--card {
-  align-items: center;
   display: flex;
   flex-direction: column;
-  height: 40vh;
-  padding: 0.5rem;
-  background: dodgerblue;
-  border-radius: 25px;
+  align-items: center;
+  padding: .8rem;
+  background: rgb(77, 94, 111);
+  border-radius: 5px;
+}
+.notice__heading__small{
+  font-size: 2.2rem;
+  color: rgb(252, 252, 252);
 }
 .notice__discription {
-  font-size: 2rem;
-  height: 20vh;
+  font-size: 1.8rem;
   margin-bottom: 2rem;
   padding: 1rem;
-  overflow-y: scroll;
 }
 .notice__published {
   font-size: 1.5rem;

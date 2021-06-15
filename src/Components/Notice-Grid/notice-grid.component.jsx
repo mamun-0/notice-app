@@ -11,7 +11,7 @@ class NoticeGrid extends React.Component {
   }
   render() {
     return (
-      <div className='grid grid--1x2 grid--1x3 grid-page-padding'>
+      <div className='grid grid--1x2 grid-page-padding'>
         <NoticeBoard noticeInformation={this.state.noticeInformation} />
       </div>
     );

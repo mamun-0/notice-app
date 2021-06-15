@@ -1,24 +1,14 @@
 const NOTICE_DATA = [
   {
     id: 1,
-    noticeHeading: "Lab Notice",
+    noticeHeading: "Assignment (DLD-253) | 2-2",
     noticeDetails:
-      "Lorem ipsum, dolor sit amet consectetur adipisicing elit. At animi minima amet ea est porro, voluptatem cumque aliquid velit vel, autem ipsam nisi quia fugit sequi. Voluptas, magnam. Dicta, aspernatur.",
-    publishedDate: "Sunday , 15 June 2021",
-  },
-  {
-    id: 2,
-    noticeHeading: "Lab Notice",
-    noticeDetails:
-      "Lorem ipsum, dolor sit amet consectetur adipisicing elit. At animi minima amet ea est porro, voluptatem cumque aliquid velit vel, autem ipsam nisi quia fugit sequi. Voluptas, magnam. Dicta, aspernatur.",
-    publishedDate: "Sunday , 15 June 2021",
-  },
-  {
-    id: 3,
-    noticeHeading: "Lab Notice",
-    noticeDetails:
-      "Lorem ipsum, dolor sit amet consectetur adipisicing elit. At animi minima amet ea est porro, voluptatem cumque aliquid velit vel, autem ipsam nisi quia fugit sequi. Voluptas, magnam. Dicta, aspernatur.",
-    publishedDate: "Sunday , 15 June 2021",
+      "An assignment is given to us by Departmental Chairman Dr. Saleh Ahmed Sir. You should complete and submit it to 'dld.sumon.edu@gmail.com' before the deadline. Assignment topics are discribed in PDF file.",
+    downloadLink:
+      "https://ln4.sync.com/dl/c36a28750/2deg6peu-xsewwpss-akduc9a5-fejtsdpg",
+    a_tag_title: "Download PDF",
+    publishedDate: "Published Date: 15/06/2021",
+    deadLine: "Submission Last Date : 25/06/2021",
   },
 ];
 export default NOTICE_DATA;
