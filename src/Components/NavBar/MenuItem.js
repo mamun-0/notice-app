@@ -11,7 +11,7 @@ const MenuItem = [
   },
   {
     title:'Files',
-    url:'files',
+    url:'/files',
     id:3
   },
 ]

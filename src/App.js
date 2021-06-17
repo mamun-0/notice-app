@@ -9,6 +9,10 @@ import StatisticsFlex from "./Components/OnlineClass/Video-card/statisticsFlex.c
 import MathFlex from "./Components/OnlineClass/Video-card/mathFlex.component";
 import JavaFlex from "./Components/OnlineClass/Video-card/javaFlex.component";
 import DataStructureFlex from "./Components/OnlineClass/Video-card/datastructureFlex.component";
+import DLDFlex from "./Components/OnlineClass/Video-card/SecondYearSecondSemester/degitalLogicDesign.component";
+import AlgorithmsFlex from "./Components/OnlineClass/Video-card/SecondYearSecondSemester/algorithmsDesign";
+import LawFlex from "./Components/OnlineClass/Video-card/SecondYearSecondSemester/law.component";
+import ComputingFlex from "./Components/OnlineClass/Video-card/SecondYearSecondSemester/throryOfComputing.component";
 import Footer from "./Components/Footer/footer.component";
 import { HashRouter, Switch, Route } from "react-router-dom";
 function App() {
@@ -17,15 +21,22 @@ function App() {
       <NavBar />
       <Switch>
         <Route exact path='/' component={HomePage} />
-        <Route path='/math-videos' component={MathFlex}/>
-        <Route path='/datastructure-videos' component={DataStructureFlex}/>
-        <Route path='/javatechnology-videos' component={JavaFlex}/>
-        <Route path='/statistics-videos' component={StatisticsFlex}/>
+        <Route path='/math-videos' component={MathFlex} />
+        <Route path='/datastructure-videos' component={DataStructureFlex} />
+        <Route path='/javatechnology-videos' component={JavaFlex} />
+        <Route path='/statistics-videos' component={StatisticsFlex} />
+        <Route path='/digital-logic-design' component={DLDFlex} />
+        <Route path='/cyber-law' component={LawFlex} />
+        <Route path='/theory-of-Computing' component={ComputingFlex} />
+        <Route
+          path='/algorithms-design-and-analysis'
+          component={AlgorithmsFlex}
+        />
         <Route path='/class-schedule' component={ClsSchedulePage} />
         <Route path='/files' component={SyllabusPage} />
         <Route path='/notice' component={NoticePage} />
       </Switch>
-      <Footer/>
+      <Footer />
     </HashRouter>
   );
 }

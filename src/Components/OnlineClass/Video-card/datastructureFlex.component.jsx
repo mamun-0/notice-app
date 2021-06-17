@@ -1,6 +1,6 @@
 import React from "react";
 import DATA_STRUCTURE from "../ClassData/dataStructure";
-import DataStructureVideoCard from "./data-structure-video-card.component";
+import VideoFlex from "../../VideoFlex/videoflex.component";
 class DataStructureFlex extends React.Component {
   constructor() {
     super();
@@ -9,9 +9,7 @@ class DataStructureFlex extends React.Component {
     };
   }
   render() {
-    return (
-      <DataStructureVideoCard datastructure={this.state.datastructure} />
-    );
+    return <VideoFlex videoData={this.state.datastructure} />;
   }
 }
-export default DataStructureFlex
+export default DataStructureFlex;

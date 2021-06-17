@@ -5,7 +5,7 @@ nav {
   min-height: 10vh;
   background: #000;
 }
-.logo{
+.logo {
   margin-left: 5px;
 }
 .nav-links {
@@ -20,44 +20,67 @@ nav {
   font-size: 2.5rem;
 }
 /* Dropdown */
-.dropbtn {
-  background-color: #04AA6D;
-  color: white;
-  border-radius: 5px;
-  padding: .5rem;
+.dropdown {
+  float: left;
+  position: relative;
+}
+
+.dropdown .dropbtn {
   font-size: 2.5rem;
   border: none;
+  outline: none;
+  color: white;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
 }
 
-.dropdown {
-  position: relative;
-  display: inline-block;
+.navbar a:hover,
+.dropdown:hover .dropbtn {
+  background-color: red;
 }
 
-.dropdown-content {
+.dropdown-one {
+  cursor: pointer;
   display: none;
   position: absolute;
-  background-color: #f1f1f1;
-  min-width: 20rem;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 20;
+  background-color: #f9f9f9;
+  min-width: 16rem;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+}
+
+.dropdown-two {
+  cursor: pointer;
+  display: none;
+  position: absolute;
+  right: 16rem;
+  top: 0px;
+  min-width: 25rem;
+  background-color: #f9f9f9;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
   z-index: 10;
 }
 
-.dropdown-content a {
-  color: black;
-  padding: 1.2rem 1.6rem;
-  text-decoration: none;
+.dropdown:hover .dropdown-one,
+#link1:hover > .dropdown-two {
   display: block;
 }
 
-.dropdown-content a:hover {background-color: #ddd;}
-
-.dropdown:hover .dropdown-content {display: block;}
-
-.dropdown:hover .dropbtn {background-color: #3e8e41;}
-/* End of dropdown */
-
-
+.dropdown-one .dItem {
+  background-color: #000;
+  padding: 1.2rem 1.6rem;
+  display: block;
+  text-align: center;
+}
+.year_sem {
+  font-size: 2rem;
+  color: rgb(255, 255, 255);
+}
+.dropdown-one .dItem:hover,
+.dropdown-two a:hover {
+  background-color: rgb(38, 36, 36);
+}
 .burger {
   display: none;
 }

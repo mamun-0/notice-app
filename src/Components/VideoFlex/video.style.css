@@ -1,0 +1,12 @@
+.video-card {
+  display: inline-flex;
+  flex-wrap: wrap;
+  text-align: center;
+}
+.video-card__container{
+  margin: 6px;
+}
+.video-card__title {
+  font-size: 2.5rem;
+  color: #fff;
+}

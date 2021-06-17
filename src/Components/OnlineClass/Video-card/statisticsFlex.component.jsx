@@ -1,6 +1,6 @@
 import React from "react";
 import STATISTICS_DATA from "../ClassData/statistics";
-import StatisticsVideoCard from "./statistics-video-card.component";
+import VideoFlex from "../../VideoFlex/videoflex.component";
 class StatisticsFlex extends React.Component {
   constructor() {
     super();
@@ -9,7 +9,7 @@ class StatisticsFlex extends React.Component {
     };
   }
   render() {
-    return <StatisticsVideoCard statistics={this.state.statistics} />;
+    return <VideoFlex videoData={this.state.statistics} />;
   }
 }
 export default StatisticsFlex;

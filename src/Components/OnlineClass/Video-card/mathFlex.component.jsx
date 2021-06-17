@@ -1,6 +1,6 @@
 import React from "react";
 import MATH_DATA from "../ClassData/mathClassData";
-import MathVideoCard from './math-video-card.component'
+import VideoFlex  from "../../VideoFlex/videoflex.component";
 class MathFlex extends React.Component {
   constructor() {
     super();
@@ -10,7 +10,7 @@ class MathFlex extends React.Component {
   }
   render(){
     return(
-      <MathVideoCard math={this.state.math}/>
+      <VideoFlex videoData={this.state.math}/>
     )
   }
 }
