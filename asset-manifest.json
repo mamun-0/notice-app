@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/notice-app/static/css/main.3036a1ec.chunk.css",
+    "main.css": "/notice-app/static/css/main.1376db59.chunk.css",
     "main.js": "/notice-app/static/js/main.02b37015.chunk.js",
     "main.js.map": "/notice-app/static/js/main.02b37015.chunk.js.map",
     "runtime-main.js": "/notice-app/static/js/runtime-main.37bd941e.js",
@@ -10,7 +10,7 @@
     "static/js/3.4efd5f2a.chunk.js": "/notice-app/static/js/3.4efd5f2a.chunk.js",
     "static/js/3.4efd5f2a.chunk.js.map": "/notice-app/static/js/3.4efd5f2a.chunk.js.map",
     "index.html": "/notice-app/index.html",
-    "static/css/main.3036a1ec.chunk.css.map": "/notice-app/static/css/main.3036a1ec.chunk.css.map",
+    "static/css/main.1376db59.chunk.css.map": "/notice-app/static/css/main.1376db59.chunk.css.map",
     "static/js/2.31dc7191.chunk.js.LICENSE.txt": "/notice-app/static/js/2.31dc7191.chunk.js.LICENSE.txt",
     "static/media/hero.style.css": "/notice-app/static/media/cse8th.a7990eeb.jpg",
     "static/media/hero-section-3.style.css": "/notice-app/static/media/hero3.7111b7c4.jpg",
@@ -20,7 +20,7 @@
   "entrypoints": [
     "static/js/runtime-main.37bd941e.js",
     "static/js/2.31dc7191.chunk.js",
-    "static/css/main.3036a1ec.chunk.css",
+    "static/css/main.1376db59.chunk.css",
     "static/js/main.02b37015.chunk.js"
   ]
 }
