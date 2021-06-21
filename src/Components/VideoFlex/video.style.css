@@ -1,7 +1,8 @@
 .video-card {
-  display: inline-flex;
+  display: flex;
   flex-wrap: wrap;
-  text-align: center;
+  justify-content: center;
+  align-items: center;
 }
 .video-card__container{
   margin: 6px;

@@ -29,15 +29,21 @@ const PDF_DATA = [
   },
   {
     id: 3,
-    title: "Google Classroom | Java Technology | CSE 205 (Theory)",
+    title: "Google Classroom | Java Technology | CSE 205 (Theory)|2-1",
     a_tag_title: "Visit",
     downloadLink: "https://classroom.google.com/u/0/c/Njc0OTE2NzM0NjBa",
   },
   {
     id: 4,
-    title: "Google Classroom | Java Technology Lab | CSE 206 (Lab)",
+    title: "Google Classroom | Java Technology Lab | CSE 206 |2-1",
     a_tag_title: "Visit",
     downloadLink: "https://classroom.google.com/u/0/c/MTQ3MjU0NzU1NzIw",
+  },
+  {
+    id: 16,
+    title: "Google Classroom | Algorithms Design and Analysis Lab | CSE 252 | 2-2",
+    a_tag_title: "Visit",
+    downloadLink: "https://classroom.google.com/u/0/c/MzA2Mzk2NjYyNjM0",
   },
   {
     id: 5,

@@ -1,4 +1,4 @@
-const DLD_DATA =  [
+const DLD_DATA = [
   {
     id: 1,
     videoUrl: "https://www.youtube.com/embed/Vn3340EgI_g",
@@ -29,5 +29,10 @@ const DLD_DATA =  [
     videoUrl: "https://www.youtube.com/embed/_At2mklJKZI",
     videoTitle: "IDS 253 Lecture 6",
   },
-]
+  {
+    id: 7,
+    videoUrl: "https://www.youtube.com/embed/C_0wyZG7J00",
+    videoTitle: "IDS 253 Lecture 7",
+  },
+];
 export default DLD_DATA;

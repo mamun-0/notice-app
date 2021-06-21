@@ -77,6 +77,7 @@ nav {
   font-size: 2rem;
   color: rgb(255, 255, 255);
 }
+
 .dropdown-one .dItem:hover,
 .dropdown-two a:hover {
   background-color: rgb(38, 36, 36);
@@ -91,8 +92,21 @@ nav {
   background-color: #fff;
 }
 
+@media screen and (max-width: 512px) {
+  .dropdown-one {
+    min-width: 10rem;
+  }
+  .dropdown-two {
+    min-width: 15rem;
+    right: 10rem;
+  }
+}
+
 @media screen and (max-width: 768px) {
   .nav-links li a {
+    font-size: 1.5rem;
+  }
+  .year_sem {
     font-size: 1.5rem;
   }
   .nav-links {

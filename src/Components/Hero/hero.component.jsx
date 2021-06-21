@@ -5,8 +5,8 @@ const Hero = () => (
     <div className='hero__left'>
       <h1>We born to live and survive</h1>
       <p>
-        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maxime ipsum
-        soluta perferendis vel corporis aliquid
+        তোমরা আদর্শবান হও, সৎ পথে থেকো, মনে রেখো, মুখে হাসি, বুকে বল, তেজে ভরা
+        মন, মানুষ হইতে হবে, মানুষ যখন।
       </p>
     </div>
   </section>
