@@ -5,7 +5,7 @@ const DROPDOWN_2_2 = [
     id: 1,
   },
   {
-    title: "Digital Logic Design",
+    title: "Introduction to Digital Systems",
     url: "/digital-logic-design",
     id: 2,
   },
@@ -18,6 +18,11 @@ const DROPDOWN_2_2 = [
     title: "Theory OF Computing",
     url: "/theory-of-Computing",
     id: 4,
+  },
+  {
+    title: "Math",
+    url: "/math-255",
+    id: 5,
   },
 ];
 export default DROPDOWN_2_2;

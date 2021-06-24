@@ -16,9 +16,8 @@ const PDF_DATA = [
   {
     id: 17,
     title: "Lab Report Cover Page",
-    a_tag_title: "Download",
-    downloadLink:
-      "https://ln4.sync.com/dl/2003d4620/qwhkbj95-efv8mugi-hi89yrmw-sf39tak2",
+    a_tag_title: "Sorry!",
+    downloadLink: "https://www.facebook.com/686rimon/",
   },
   {
     id: 2,
@@ -41,7 +40,8 @@ const PDF_DATA = [
   },
   {
     id: 16,
-    title: "Google Classroom | Algorithms Design and Analysis Lab | CSE 252 | 2-2",
+    title:
+      "Google Classroom | Algorithms Design and Analysis Lab | CSE 252 | 2-2",
     a_tag_title: "Visit",
     downloadLink: "https://classroom.google.com/u/0/c/MzA2Mzk2NjYyNjM0",
   },
@@ -54,7 +54,7 @@ const PDF_DATA = [
   },
   {
     id: 6,
-    title: "Google Group | Digital Logic Design | CSE 203",
+    title: "Google Group | Digital Logic Design | CSE 203 |2-1",
     a_tag_title: "Visit",
     downloadLink: "https://groups.google.com/g/cse203-jan2020?pli=1",
   },
@@ -81,10 +81,17 @@ const PDF_DATA = [
   },
   {
     id: 14,
-    title: " Proteus 8 with Crack(203) | 2-1",
+    title: "Proteus Professional 7+License",
     a_tag_title: "Download",
     downloadLink:
-      "https://drive.google.com/drive/folders/1QqmbbMONUrgYoGaMx7LeRRtizmHu3yxd?usp=sharing",
+      "https://ln4.sync.com/dl/90d7d06a0/bqaefgpd-grqxxkka-4tzcgxxv-zseqzwkr",
+  },
+  {
+    id: 20,
+    title: "Proteus 8.9+License",
+    a_tag_title: "Download",
+    downloadLink:
+      "https://mega.nz/file/neYRSC6K#9LTmowV-wnmXXKp1Xl_zEdJbBJmvxDP3K36uMcdH0-8",
   },
   {
     id: 15,
@@ -99,14 +106,14 @@ const PDF_DATA = [
     title: "Theory OF Computing (255) | 2-2",
     a_tag_title: "Download",
     downloadLink:
-      "https://drive.google.com/file/d/1q_4AwqITFHw2i7YQ69dR3ib7SLAXpEGz/view?usp=sharing",
+      "https://mega.nz/file/DCAxRahb#WBa8O-Z87CoX8BqxWeDkNEDsxWn6OZ9JmMIK3Lpdfac",
   },
   {
     id: 11,
     title: "Introduction To Digital Systems (253)  | 2-2",
     a_tag_title: "Download",
     downloadLink:
-      "https://drive.google.com/file/d/1-RqFKT16qy2AaXkpGvQENFGFHNDNJS6c/view?usp=sharing",
+      "https://mega.nz/file/CGhRDSSb#X2iTswZyYyX1BTvB-ujCsYPYvtXUvOflUdRR7udCfqQ",
   },
   {
     id: 12,

@@ -13,6 +13,7 @@ import DLDFlex from "./Components/OnlineClass/Video-card/SecondYearSecondSemeste
 import AlgorithmsFlex from "./Components/OnlineClass/Video-card/SecondYearSecondSemester/algorithmsDesign";
 import LawFlex from "./Components/OnlineClass/Video-card/SecondYearSecondSemester/law.component";
 import ComputingFlex from "./Components/OnlineClass/Video-card/SecondYearSecondSemester/throryOfComputing.component";
+import Math255Flex from "./Components/OnlineClass/Video-card/SecondYearSecondSemester/math.component";
 import Footer from "./Components/Footer/footer.component";
 import { HashRouter, Switch, Route } from "react-router-dom";
 function App() {
@@ -28,6 +29,7 @@ function App() {
         <Route path='/digital-logic-design' component={DLDFlex} />
         <Route path='/cyber-law' component={LawFlex} />
         <Route path='/theory-of-Computing' component={ComputingFlex} />
+        <Route path='/math-255' component={Math255Flex} />
         <Route
           path='/algorithms-design-and-analysis'
           component={AlgorithmsFlex}
