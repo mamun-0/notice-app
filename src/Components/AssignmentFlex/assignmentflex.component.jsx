@@ -13,7 +13,9 @@ const AssignmentFlex = (props) => (
             Subject Name : <span>{item.subjectName}</span>
           </li>
         </ul>
-            <a className='btn' href={item.downloadLink}>Download</a>
+        <a className='btn' href={item.downloadLink}>
+          Download
+        </a>
       </div>
     ))}
   </div>
