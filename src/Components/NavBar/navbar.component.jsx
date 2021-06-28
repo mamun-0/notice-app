@@ -34,24 +34,24 @@ class NavBar extends React.Component {
               this.state.clicked ? "nav-links nav-active" : "nav-links"
             }>
             <li>
-              <div class='dropdown'>
-                <div class='dropbtn'>Online Classes</div>
-                <div class='dropdown-one'>
-                  <div id='link1' class='dItem'>
+              <div className='dropdown'>
+                <div className='dropbtn'>Online Classes</div>
+                <div className='dropdown-one'>
+                  <div id='link1' className='dItem'>
                     <p className='year_sem'>2-1</p>
-                    <div class='dropdown-two'>
+                    <div className='dropdown-two'>
                       {this.state.dropdown2_1.map(({ id, title, url }) => (
-                        <div key={id} class='dItem'>
+                        <div key={id} className='dItem'>
                           <Link to={url}>{title}</Link>
                         </div>
                       ))}
                     </div>
                   </div>
-                  <div id='link1' class='dItem'>
+                  <div id='link1' className='dItem'>
                     <p className='year_sem'>2-2</p>
-                    <div class='dropdown-two'>
+                    <div className='dropdown-two'>
                       {this.state.dropdown2_2.map(({ id, title, url }) => (
-                        <div key={id} class='dItem'>
+                        <div key={id} className='dItem'>
                           <Link to={url}>{title}</Link>
                         </div>
                       ))}
@@ -61,13 +61,13 @@ class NavBar extends React.Component {
               </div>
             </li>
             <li>
-              <div class='dropdown'>
-                <div class='dropbtn'>{`Assingment & Lab`}</div>
-                <div class='dropdown-one'>
+              <div className='dropdown'>
+                <div className='dropbtn'>{`Assingment & Lab`}</div>
+                <div className='dropdown-one'>
                   {
                     this.state.assignmentDropdown.map((item)=>(
 
-                  <div id='link1' class='dItem'>
+                  <div id='link1' className='dItem' key={item.id}>
                     <Link to={item.url}>{item.title}</Link>
                   </div>
                     ))

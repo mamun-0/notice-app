@@ -3,7 +3,7 @@ import "./App.css";
 import NavBar from "./Components/NavBar/navbar.component";
 import HomePage from "./pages/homepage/homepage.component";
 import NoticePage from "./pages/Notice-Page/notice-page.component";
-import SyllabusPage from "./pages/Syllabus/syllabus.component";
+import FileContainer from './Components/Files/FilesContainer/files-container.component'
 import StatisticsFlex from "./Components/OnlineClass/Video-card/statisticsFlex.component";
 import MathFlex from "./Components/OnlineClass/Video-card/mathFlex.component";
 import JavaFlex from "./Components/OnlineClass/Video-card/javaFlex.component";
@@ -38,7 +38,7 @@ function App() {
         />
         <Route path='/assignments-lab-2-1' component={Assignment21}/>
         <Route path='/assignments-lab-2-2' component={Assignment22}/>
-        <Route path='/files' component={SyllabusPage} />
+        <Route path='/files' component={FileContainer} />
         <Route path='/notice' component={NoticePage} />
       </Switch>
       <Footer />

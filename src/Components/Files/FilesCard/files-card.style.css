@@ -1,0 +1,39 @@
+.preview-container{
+  padding: 1rem;
+}
+.preview-cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+}
+.preview-container h2{
+  margin: 2rem 0;
+  text-align: center;
+  color:#fff
+}
+.card-container__flex {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 2rem;
+  box-shadow: 2px 3px 5px;
+}
+.card-container__flex li{
+  text-align: center;
+  font-size: 2rem;
+  border-bottom: 1px solid black;
+  display: block;
+  width: 100%;
+  padding: 2rem 8rem;
+  background-color: dodgerblue;
+  color: rgb(255, 255, 255);
+}
+.card-container__flex li:last-child{
+  border-bottom: none;
+  padding: none;
+}
+.card-container__flex li:hover{
+  background-color: rgb(47, 112, 177);
+}
