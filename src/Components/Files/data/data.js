@@ -58,7 +58,7 @@ const SEMESTERS_FILES = [
         subjectCode: "MAT 205",
         subjectName: "Linear-Algebra-Theory-Of-Matrices | Book",
         a_tag_title: "Download",
-        link: "https://drive.google.com/file/d/1NayNih8fRWmd-6z_UVL7TKILAbh7EgMf/view?usp=sharing",
+        link: "https://drive.google.com/file/d/1lAc809AhCyHNkeUtqjrAGGqPFuUu8dE5/view?usp=sharing",
       },
       {
         id: 8,
@@ -183,7 +183,7 @@ const SEMESTERS_FILES = [
         subjectCode: "CSE 258",
         subjectName: "AutoCAD",
         a_tag_title: "Download",
-        link: "https://drive.google.com/drive/folders/1iv4fVRToXgfYmfNsXHKPQSSdXRNCJAdI?usp=sharing",
+        link: "https://usersdrive.com/xulv29tuxo7u.html",
       },
       {
         id: 2,
@@ -191,7 +191,7 @@ const SEMESTERS_FILES = [
         subjectCode: "CSE 258",
         subjectName: "Photoshop",
         a_tag_title: "Download",
-        link: "https://drive.google.com/drive/folders/1iv4fVRToXgfYmfNsXHKPQSSdXRNCJAdI?usp=sharing",
+        link: "https://usersdrive.com/129igovpgy8g.html",
       },
     ],
   },

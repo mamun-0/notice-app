@@ -11,6 +11,7 @@ const NoticeBoard = (props) =>
         <a className='btn' href={item.downloadLink}>
           {item.a_tag_title}
         </a>
+        <ul>{item.topics}</ul>
         <p className='notice__published nospace'>{item.publishedDate}</p>
         <p className='notice__published nospace'>{item.deadLine}</p>
       </div>
