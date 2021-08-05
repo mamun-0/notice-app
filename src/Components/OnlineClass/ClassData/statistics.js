@@ -6,7 +6,7 @@ const STATISTICS_DATA = [
   },
   {
     id: 2,
-    videoUrl: "https://www.youtube.com/embed/o7p1DhhDOQk",
+    videoUrl: "https://www.youtube.com/embed/GSkuCntc1ks",
     videoTitle: "Statistics 201 Lecture 1(||)",
   },
   {

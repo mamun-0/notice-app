@@ -1,38 +1,11 @@
 const ASSIGNMENT_21 = [
   {
     id: 1,
-    subjectCode: "404",
-    teacherName: "----",
-    subjectName: "----",
-    downloadLink: "/",
-  },
-  {
-    id: 2,
-    subjectCode: "404",
-    teacherName: "----",
-    subjectName: "----",
-    downloadLink: "/",
-  },
-  {
-    id: 3,
-    subjectCode: "404",
-    teacherName: "----",
-    subjectName: "----",
-    downloadLink: "/",
-  },
-  {
-    id: 4,
-    subjectCode: "404",
-    teacherName: "----",
-    subjectName: "----",
-    downloadLink: "/",
-  },
-  {
-    id: 5,
-    subjectCode: "404",
-    teacherName: "----",
-    subjectName: "----",
-    downloadLink: "/",
+    subjectCode: "CSE203",
+    teacherName: "Abu Bakar Muhammad Abdullah",
+    subjectName: "Digital Logic Design [Midterm Exam]",
+    downloadLink:
+      "https://drive.google.com/file/d/1Edbxv60RVdPS-7xbDB26xLMD2EqEvntW/view?usp=sharing",
   },
 ];
 export default ASSIGNMENT_21;

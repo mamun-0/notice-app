@@ -49,5 +49,10 @@ const DLD_DATA = [
     videoUrl: "https://www.youtube.com/embed/UUIdkCPGjaU",
     videoTitle: "IDS 253 Lecture 10",
   },
+  {
+    id: 11,
+    videoUrl: "https://www.youtube.com/embed/4k3_7a9F44o",
+    videoTitle: "IDS 253 Lecture 11",
+  },
 ];
 export default DLD_DATA;

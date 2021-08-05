@@ -11,18 +11,23 @@ const COMPUTING_DATA = [
   },
   {
     id: 3,
-    videoUrl: "https://www.youtube.com/embed/w6ti9Ip6ooI",
+    videoUrl: "https://www.youtube.com/embed/S4rdhneNe8Q",
     videoTitle: "Theory of Computing Lecture 3",
   },
   {
     id: 4,
-    videoUrl: "https://www.youtube.com/embed/rdP7b2VxI18",
+    videoUrl: "https://www.youtube.com/embed/w6ti9Ip6ooI",
     videoTitle: "Theory of Computing Lecture 4",
   },
   {
     id: 5,
-    videoUrl: "https://www.youtube.com/embed/2uxiDKV2l90",
+    videoUrl: "https://www.youtube.com/embed/rdP7b2VxI18",
     videoTitle: "Theory of Computing Lecture 5",
+  },
+  {
+    id: 6,
+    videoUrl: "https://www.youtube.com/embed/2uxiDKV2l90",
+    videoTitle: "Theory of Computing Lecture 6",
   },
 ];
 export default COMPUTING_DATA;

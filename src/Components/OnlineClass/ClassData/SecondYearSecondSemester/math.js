@@ -24,5 +24,20 @@ const MATH_DATA =  [
     videoUrl: "https://www.youtube.com/embed/fF7Rp1X8OYw",
     videoTitle: "Math 255 Lecture 3 (|||)",
   },
+  {
+    id: 6,
+    videoUrl: "https://www.youtube.com/embed/aoiP5vAY4dQ",
+    videoTitle: "Math 255 Lecture 4 (|)",
+  },
+  {
+    id: 7,
+    videoUrl: "https://www.youtube.com/embed/ptIlm3MjJqo",
+    videoTitle: "Math 255 Lecture 4 (||)",
+  },
+  {
+    id: 8,
+    videoUrl: "https://www.youtube.com/embed/IwN2bw4rNuI",
+    videoTitle: "Math 255 Lecture 4 (|||)",
+  },
 ]
 export default MATH_DATA;
