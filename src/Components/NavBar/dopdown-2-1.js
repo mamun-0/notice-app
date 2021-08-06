@@ -1,5 +1,10 @@
 const DROPDOWN_2_1 = [
   {
+    title: "Digital Logic Design",
+    url: "/cse-203-and-204",
+    id: 5,
+  },
+  {
     title: "Math",
     url: "/math-videos",
     id: 1,
