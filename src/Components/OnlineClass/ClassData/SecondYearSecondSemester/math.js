@@ -44,5 +44,10 @@ const MATH_DATA =  [
     videoUrl: "https://www.youtube.com/embed/cGy8F75PfKc",
     videoTitle: "Math 255 Lecture 5",
   },
+  {
+    id: 10,
+    videoUrl: "https://www.youtube.com/embed/GH7__1BGkeg",
+    videoTitle: "Math 255 Lecture 6",
+  },
 ]
 export default MATH_DATA;
