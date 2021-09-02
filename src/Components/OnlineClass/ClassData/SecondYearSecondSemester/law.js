@@ -14,5 +14,10 @@ const LAW_DATA = [
     videoUrl: "https://www.youtube.com/embed/KSdSyF97D3I",
     videoTitle: "Law 255 Lecture 3",
   },
+  {
+    id: 4,
+    videoUrl: "https://www.youtube.com/embed/dCrOKOolYig",
+    videoTitle: "Law 255 Lecture 4",
+  },
 ];
 export default LAW_DATA;

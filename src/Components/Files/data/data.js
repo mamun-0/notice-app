@@ -40,9 +40,9 @@ const SEMESTERS_FILES = [
         id: 5,
         teacherName: "Abu Bakar Muhammad Abdullah",
         subjectCode: "CSE 203 & 204",
-        subjectName: "Digital Logic Design [All Files Included Except Proteus]",
+        subjectName: "Digital Logic Design [All PPT Files]",
         a_tag_title: "Download",
-        link: "https://drive.google.com/file/d/1uZjnNsshMg4ygEjchPPWbTyedvmtDIO7/view?usp=sharing",
+        link: "https://drive.google.com/file/d/1aafH5q5MYp8Ruv5os2UIWu6X9GhGyZ5O/view?usp=sharing",
       },
       {
         id: 6,

@@ -1,4 +1,4 @@
-const MATH_DATA =  [
+const MATH_DATA = [
   {
     id: 1,
     videoUrl: "https://www.youtube.com/embed/lyMsl-e_Uqo",
@@ -49,5 +49,10 @@ const MATH_DATA =  [
     videoUrl: "https://www.youtube.com/embed/GH7__1BGkeg",
     videoTitle: "Math 255 Lecture 6",
   },
-]
+  {
+    id: 11,
+    videoUrl: "https://www.youtube.com/embed/Tzu6vsJiI3I",
+    videoTitle: "Math 255 Lecture 7",
+  },
+];
 export default MATH_DATA;
