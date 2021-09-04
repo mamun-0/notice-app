@@ -14,5 +14,10 @@ const EDL_DATA =  [
     videoUrl: "https://www.youtube.com/embed/GT27H6v6kXM",
     videoTitle: "CSE 258 Lecture 3",
   },
+  {
+    id: 4,
+    videoUrl: "https://www.youtube.com/embed/HvTKF3WQUCw",
+    videoTitle: "CSE 258 Lecture 4 [Muted]",
+  },
 ]
 export default EDL_DATA;
