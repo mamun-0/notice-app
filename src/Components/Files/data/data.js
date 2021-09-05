@@ -144,7 +144,7 @@ const SEMESTERS_FILES = [
         subjectCode: "CSE 258",
         subjectName: "Engineering Drawing Lab | Files",
         a_tag_title: "Download",
-        link: "https://mega.nz/file/GbAyzDJb#JllfayPKu2SOH8sn_dV9yfVEpmokQQQIm1gMx67tQAE",
+        link: "https://drive.google.com/file/d/1NFgoylchiXglPyyRPhgSum1ohFdUw7pW/view?usp=sharing",
       },
       {
         id: 7,
