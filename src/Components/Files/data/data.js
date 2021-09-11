@@ -152,7 +152,7 @@ const SEMESTERS_FILES = [
         subjectCode: "MAT 255",
         subjectName: "Complex Variables and Laplace | Files",
         a_tag_title: "Download",
-        link: "https://mega.nz/file/vbhWEZaB#STnUZVMRIftRtYqO2qnt0a6VM2mYyOxMXEQ9MffAhuM",
+        link: "https://drive.google.com/file/d/18LcWInBeIXadXmZymfHX6t3nzdporzXD/view?usp=sharing",
       },
       {
         id: 8,
