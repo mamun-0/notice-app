@@ -16,8 +16,8 @@ const EDL_DATA =  [
   },
   {
     id: 4,
-    videoUrl: "https://www.youtube.com/embed/HvTKF3WQUCw",
-    videoTitle: "CSE 258 Lecture 4 [Muted]",
+    videoUrl: "https://www.youtube.com/embed/1A6bCFLDim4",
+    videoTitle: "CSE 258 Lecture 4",
   },
   {
     id: 5,
