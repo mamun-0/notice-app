@@ -7,5 +7,13 @@ const ASSIGNMENT_21 = [
     downloadLink:
       "https://drive.google.com/file/d/1Edbxv60RVdPS-7xbDB26xLMD2EqEvntW/view?usp=sharing",
   },
+  {
+    id: 2,
+    subjectCode: "CSE[2018-19]",
+    teacherName: "---",
+    subjectName: "Midterm Exam Syllabus[2-1]",
+    downloadLink:
+      "https://drive.google.com/file/d/1U7J4epK5YwfL9Ux0nEQuKzdPVDRhdpOf/view?usp=sharing",
+  },
 ];
 export default ASSIGNMENT_21;
