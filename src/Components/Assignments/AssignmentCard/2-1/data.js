@@ -23,5 +23,13 @@ const ASSIGNMENT_21 = [
     downloadLink:
       "https://drive.google.com/file/d/13uPAeU2YxvV2gRPzh5m_DjWPZa4r48p8/view?usp=sharing",
   },
+  {
+    id: 4,
+    subjectCode: "CSE 204",
+    teacherName: "Abu Bakar Muhammad Abdullah",
+    subjectName: "Digital Logic Design[Experiment 1 to 10] Solution",
+    downloadLink:
+      "https://drive.google.com/file/d/1WVYaNt1NQaLly5r48ewtqrlqC5vptfDa/view?usp=sharing",
+  },
 ];
 export default ASSIGNMENT_21;
