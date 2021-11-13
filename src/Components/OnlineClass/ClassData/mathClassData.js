@@ -76,7 +76,7 @@ const MATH_DATA =  [
     },
     {
       id: 16,
-      videoUrl: "https://www.youtube.com/watch?v=DTdjXgeYj7c",
+      videoUrl: "https://www.youtube.com/embed/k2YCiwAcH5s",
       videoTitle: "Review Class 1",
     },
   ]
