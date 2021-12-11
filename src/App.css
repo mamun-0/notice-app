@@ -14,7 +14,7 @@ html {
 }
 body {
   font-family: "Titillium Web", sans-serif;
-  background: rgb(61, 22, 51);
+  background: url("./Components/herosection3/background/endless-constellation.svg");
   overflow-x: hidden;
 }
 @media screen and (max-width:768px) {
