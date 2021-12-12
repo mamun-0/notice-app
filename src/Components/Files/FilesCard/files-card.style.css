@@ -13,7 +13,7 @@
   color:#fff
 }
 .card-container{
-  width: 60vw;
+  width: 95vw;
 }
 .card-container__flex {
   display: flex;
@@ -39,4 +39,9 @@
 }
 .card-container__flex li:hover{
   background-color: rgb(47, 112, 177);
+}
+@media screen and (min-width:600px) {
+  .card-container{
+    width: 60vw;
+  }
 }
