@@ -12,6 +12,9 @@
   text-align: center;
   color:#fff
 }
+.card-container{
+  width: 60vw;
+}
 .card-container__flex {
   display: flex;
   flex-direction: column;
