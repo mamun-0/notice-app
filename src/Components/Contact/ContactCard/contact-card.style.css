@@ -29,3 +29,19 @@
   margin: 0.5rem 0rem;
   font-size: 1.9rem;
 }
+@media screen and (max-width:780px) {
+  .student-card{
+    display: flex;
+    flex-direction: column;
+  }
+  .heading-card h3{
+    font-size: 2rem;
+  }
+  .details-card ul li {
+    font-size: 1.4rem;
+  }
+  .info-card{
+    margin: 1rem .4rem;
+    width: 95vw;
+  }
+}
