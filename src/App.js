@@ -4,6 +4,7 @@ import NavBar from "./Components/NavBar/navbar.component";
 import HomePage from "./pages/homepage/homepage.component";
 import NoticePage from "./pages/Notice-Page/notice-page.component";
 import FileContainer from "./Components/Files/FilesContainer/files-container.component";
+import ContactPage from "./pages/Contacts/contacts.component";
 //======2-1=====
 import DldFlex from "./Components/OnlineClass/Video-card/dldFlex.component";
 import StatisticsFlex from "./Components/OnlineClass/Video-card/statisticsFlex.component";
@@ -52,6 +53,7 @@ function App() {
         <Route path='/assignments-lab-2-2' component={Assignment22} />
         <Route path='/files' component={FileContainer} />
         <Route path='/notice' component={NoticePage} />
+        <Route path='/contacts' component={ContactPage} />
       </Switch>
       <Footer />
     </HashRouter>

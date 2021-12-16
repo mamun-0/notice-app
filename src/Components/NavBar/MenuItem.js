@@ -9,5 +9,10 @@ const MenuItem = [
     url:'/files',
     id:3
   },
+  {
+    title:'Contacts',
+    url:'/contacts',
+    id:4
+  },
 ]
 export default MenuItem;

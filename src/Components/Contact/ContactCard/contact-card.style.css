@@ -1,0 +1,31 @@
+.student-card {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.info-card {
+  background: rgba(227, 228, 233);
+  margin: 3rem;
+  box-shadow: 5px 5px 5px rgba(188, 189, 196, 0.9);
+  border-radius: 5px;
+}
+.heading-card {
+  background: rgb(206, 207, 211);
+}
+.heading-card h3 {
+  text-align: center;
+  padding: 1rem;
+  font-size: 3rem;
+  border-bottom: 2px solid black;
+}
+.details-card ul {
+  display: flex;
+  flex-direction: column;
+  list-style-type: none;
+  padding: 20px;
+}
+.details-card ul li {
+  margin: 0.5rem 0rem;
+  font-size: 1.9rem;
+}
