@@ -4,7 +4,7 @@ import "./navbar.style.css";
 import DROPDOWN_2_1 from "./dopdown-2-1";
 import DROPDOWN_2_2 from "./dropdown-2-2";
 import ASSIGN_DROPDOWN from "./AssignDropdown/assignmetDropdown";
-import logo from "../../media/fabicon/logo.jpg";
+import logo from "../../media/fabicon/logo-1.png";
 import { HashRouter, Link } from "react-router-dom";
 class NavBar extends React.Component {
   constructor() {
@@ -26,7 +26,7 @@ class NavBar extends React.Component {
         <nav>
           <div className='logo'>
             <Link to='/'>
-              <img src={logo} alt='Home Icon' />
+              <img className='main-logo' src={logo} alt='Home Icon' />
             </Link>
           </div>
           <ul
