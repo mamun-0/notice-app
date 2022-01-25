@@ -1,5 +1,14 @@
 const NOTICE_DATA = [
   {
+    id: 5,
+    noticeHeading: "Assignment from Faruk Hossen Sir",
+    noticeDetails:
+      "Implement graph and Find the DFS traversal of that graph. Print the tree edges, back edges, forward edges and cross edges.(text book)[Deadline:06/02/22]",
+    downloadLink: "#",
+    a_tag_title: "Not Downloadable",
+    publishedDate: "Published Date: 25/01/2022",
+  },
+  {
     id: 4,
     noticeHeading: "Mid-Term Exam Syllabus Theory Of Computing(CSE-255) | 2-2",
     noticeDetails:
@@ -22,7 +31,8 @@ const NOTICE_DATA = [
   },
   {
     id: 2,
-    noticeHeading: "Mid-Term Exam Syllabus Introduction to Digital Systems (CSE-253) | 2-2",
+    noticeHeading:
+      "Mid-Term Exam Syllabus Introduction to Digital Systems (CSE-253) | 2-2",
     noticeDetails:
       "To create presentation slide based on  topics are given in the pdf file. Every slide contains at least 5-6 pages.",
     downloadLink:
