@@ -1,5 +1,15 @@
 const NOTICE_DATA = [
   {
+    id: 6,
+    noticeHeading: "Assignment from Sangida Akter Saroni mam",
+    noticeDetails:
+      "Mr. Bob opened the Campus Laundromat on September 1, 2010. During the first month of operations the following transactions occurred....[Deadline:31/01/22]",
+    downloadLink:
+      "https://docs.google.com/document/d/19vA5_eoNvZ4Q8kDN4nWgECDmqCGhxJi2/edit?usp=sharing&ouid=113351752725746059661&rtpof=true&sd=true",
+    a_tag_title: "Download",
+    publishedDate: "Published Date: 25/01/2022",
+  },
+  {
     id: 5,
     noticeHeading: "Assignment from Faruk Hossen Sir",
     noticeDetails:
