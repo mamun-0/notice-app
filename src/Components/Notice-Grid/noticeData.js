@@ -1,5 +1,24 @@
 const NOTICE_DATA = [
   {
+    id: 7,
+    noticeHeading: "Introduction To Digital Systems Lab Topics",
+    noticeDetails: `CSE254 syllabus
+      ###Experiment
+      # All types of Flipflop(design and implement)
+      # All types of counter(design and implement)
+      # All types of register(design and implement)
+      # Work in Sequence Counter with JK flipflop
+      #Analog to Digital and Digital to Analog conversion
+      #Create Memory with D-flipflop
+      #Clipper and Clamper(design and implement)
+      #bitable and astable multivibrations
+      ###Quize/ viva:
+      #All properties of IC`,
+    downloadLink: "",
+    a_tag_title: "Not Downloadable",
+    publishedDate: "Published Date: 01/02/2022",
+  },
+  {
     id: 6,
     noticeHeading: "Assignment from Sangida Akter Saroni mam",
     noticeDetails:
