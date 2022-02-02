@@ -59,5 +59,10 @@ const ACC_DATA = [
     videoUrl: "https://www.youtube.com/embed/o8cXMA-XAYw",
     videoTitle: "ACC 255 Lecture 9",
   },
+  {
+    id: 10,
+    videoUrl: "https://www.youtube.com/embed/sAtmeoDFaJk",
+    videoTitle: "ACC 255 Lecture 10",
+  },
 ];
 export default ACC_DATA;
