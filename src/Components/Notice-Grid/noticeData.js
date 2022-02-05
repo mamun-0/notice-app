@@ -1,6 +1,20 @@
 const NOTICE_DATA = [
   {
     id: 7,
+    noticeHeading: "Algorithms Design And Analysis CSE252 LAB",
+    noticeDetails: `
+    CSE252 Topics for Lab exams:
+
+    1. DFS ( DFS related problems included)
+    2. BFS (BFS related problems included)
+    3. Dynamic Programming (sove DP related problems)
+    4. Greedy Algorithms (solve GA related problems)`,
+    downloadLink: "",
+    a_tag_title: "Not Downloadable",
+    publishedDate: "Published Date: 05/02/2022",
+  },
+  {
+    id: 7,
     noticeHeading: "Introduction To Digital Systems Lab Topics",
     noticeDetails: `CSE254 syllabus
       ###Experiment
@@ -32,9 +46,10 @@ const NOTICE_DATA = [
     id: 5,
     noticeHeading: "Assignment from Faruk Hossen Sir",
     noticeDetails:
-      "Implement graph and Find the DFS traversal of that graph. Print the tree edges, back edges, forward edges and cross edges.(text book)[Deadline:06/02/22]",
-    downloadLink: "#",
-    a_tag_title: "Not Downloadable",
+      "Implement graph and Find the DFS traversal of that graph. Print the tree edges, back edges, forward edges and cross edges.(text book).............[Deadline:06/02/22]",
+    downloadLink:
+      "https://docs.google.com/document/d/1e4ao72wNHz19ijx6kdSnE7tQlcY7EmOC/edit?usp=sharing&ouid=113351752725746059661&rtpof=true&sd=true",
+    a_tag_title: "Download",
     publishedDate: "Published Date: 25/01/2022",
   },
   {
