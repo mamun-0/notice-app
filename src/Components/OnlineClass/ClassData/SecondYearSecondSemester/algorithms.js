@@ -84,5 +84,10 @@ const ALGORITHMS_DATA = [
     videoUrl: "https://www.youtube.com/embed/SCrHyv7Phvc",
     videoTitle: "ADAA 251 Lecture 17",
   },
+  {
+    id: 19,
+    videoUrl: "https://www.youtube.com/embed/OvFeHE46c2o",
+    videoTitle: "ADAA 251 Lecture 18",
+  },
 ];
 export default ALGORITHMS_DATA;
