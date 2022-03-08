@@ -160,7 +160,7 @@ const SEMESTERS_FILES = [
         subjectCode: "LAW 255",
         subjectName: "Cyber and Intellectual Property Law | Files",
         a_tag_title: "Download",
-        link: "https://drive.google.com/file/d/1tPcnwicOZUFhX_kVPr523LeD0LzCktq5/view?usp=sharing",
+        link: "https://drive.google.com/drive/folders/1q4AabOfqke6rWyuijEx8i5GNTLvJlFt8?usp=sharing",
       },
       // {
       //   id: 9,
