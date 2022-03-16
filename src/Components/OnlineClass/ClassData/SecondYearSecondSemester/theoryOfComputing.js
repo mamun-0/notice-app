@@ -29,5 +29,10 @@ const COMPUTING_DATA = [
     videoUrl: "https://www.youtube.com/embed/2uxiDKV2l90",
     videoTitle: "Theory of Computing Lecture 6",
   },
+  {
+    id: 7,
+    videoUrl: "https://www.youtube.com/embed/iW2jCT1J0pc",
+    videoTitle: "Theory of Computing Suggestion",
+  },
 ];
 export default COMPUTING_DATA;
