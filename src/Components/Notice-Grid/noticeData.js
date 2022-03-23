@@ -1,9 +1,8 @@
 const NOTICE_DATA = [
   {
     id: 9,
-    noticeHeading: "ACC255 3rd assignment",
-    noticeDetails: `
-    Description of Elements of Financial Statements.`,
+    noticeHeading: "ACC255 3rd Assignment",
+    noticeDetails: `Description of Elements of Financial Statements.`,
     downloadLink: "",
     a_tag_title: "Not Downloadable",
     publishedDate: "Published Date: 20/03/2022",
