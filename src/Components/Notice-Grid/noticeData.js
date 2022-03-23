@@ -1,6 +1,15 @@
 const NOTICE_DATA = [
   {
-    id: 7,
+    id: 9,
+    noticeHeading: "ACC255 3rd assignment",
+    noticeDetails: `
+    Description of Elements of Financial Statements.`,
+    downloadLink: "",
+    a_tag_title: "Not Downloadable",
+    publishedDate: "Published Date: 20/03/2022",
+  },
+  {
+    id: 8,
     noticeHeading: "Algorithms Design And Analysis CSE252 LAB",
     noticeDetails: `
     CSE252 Topics for Lab exams:
