@@ -1,11 +1,18 @@
 const NOTICE_DATA = [
   {
     id: 9,
-    noticeHeading: "ACC255 3rd Assignment",
-    noticeDetails: `Description of Elements of Financial Statements.`,
+    noticeHeading: "ACC255 2nd & 3rd Assignment",
+    noticeDetails: `Assignment 2:
+    *Difference between Sole proprietorship & partnership Business. 
+    
+    *Difference between Corporation & Partnership Business. 
+    
+    Assignment 3:
+
+    *Description of elements of Financial statements`,
     downloadLink: "",
     a_tag_title: "Not Downloadable",
-    publishedDate: "Published Date: 20/03/2022",
+    publishedDate: "Deadline: 02/04/2022",
   },
   {
     id: 8,
