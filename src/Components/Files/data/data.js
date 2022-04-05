@@ -242,8 +242,23 @@ const SEMESTERS_FILES = [
       },
     ],
   },
+  {
+    id: 5,
+    year: "Third Year",
+    semesterName: "First Semester",
+    data: [
+      {
+        id: 1,
+        teacherName: "Md. Martuza Ahamad",
+        subjectCode: "CSE 303",
+        subjectName: "Operating System and System Programming",
+        a_tag_title: "Download",
+        link: "https://drive.google.com/file/d/1k3XGQgQiBNo1DQp2nkCtz5IWdYWjT17w/view?usp=sharing",
+      },
+    ],
+  },
   // {
-  //   id: 4,
+  //   id: 5,
   //   year: "Second Year",
   //   semesterName: "Second Semester",
   //   data: [
