@@ -212,9 +212,25 @@ const SEMESTERS_FILES = [
         id: 1,
         teacherName: "Md. Martuza Ahamad",
         subjectCode: "CSE 303",
-        subjectName: "Operating System and System Programming",
+        subjectName: "Operating System and System",
         a_tag_title: "Download",
         link: "https://drive.google.com/file/d/1k3XGQgQiBNo1DQp2nkCtz5IWdYWjT17w/view?usp=sharing",
+      },
+      {
+        id: 2,
+        teacherName: "Nasif Ahmed",
+        subjectCode: "CSE 307",
+        subjectName: "Compiler Design",
+        a_tag_title: "Download",
+        link: "https://drive.google.com/file/d/1zYIc16dLkhqkSd-Yc9JamqQ9bgfY9L7f/view?usp=sharing",
+      },
+      {
+        id: 3,
+        teacherName: "Faruk Hossen",
+        subjectCode: "CSE 305",
+        subjectName: "Computer Architecture and Organization",
+        a_tag_title: "Download",
+        link: "https://drive.google.com/file/d/1u1D1J5kmPQ9rLMy5XZEnZQtRR1ZIxfUA/view?usp=sharing",
       },
     ],
   },
@@ -257,7 +273,7 @@ const SEMESTERS_FILES = [
       },
     ],
   },
-  
+
   // {
   //   id: 5,
   //   year: "Second Year",
