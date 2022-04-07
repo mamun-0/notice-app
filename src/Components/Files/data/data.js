@@ -232,6 +232,29 @@ const SEMESTERS_FILES = [
         a_tag_title: "Download",
         link: "https://drive.google.com/file/d/1u1D1J5kmPQ9rLMy5XZEnZQtRR1ZIxfUA/view?usp=sharing",
       },
+      {
+        id: 4,
+        teacherName: "Md. Nesarul Hoque",
+        subjectCode: "CSE 309",
+        subjectName: "Database Management Systems",
+        a_tag_title: "File not found!",
+        link: "#",
+      },
+    ],
+  },
+  {
+    id: 3,
+    year: "3rd Year",
+    semesterName: "1st Semester [Software]",
+    data: [
+      {
+        id: 1,
+        teacherName: "Md. Nesarul Hoque",
+        subjectCode: "CSE 309",
+        subjectName: "Database Management Systems Lab",
+        a_tag_title: "File not found!",
+        link: "#",
+      },
     ],
   },
   {
