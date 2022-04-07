@@ -250,7 +250,7 @@ const SEMESTERS_FILES = [
       {
         id: 1,
         teacherName: "Md. Nesarul Hoque",
-        subjectCode: "CSE 309",
+        subjectCode: "CSE 310",
         subjectName: "Database Management Systems Lab",
         a_tag_title: "File not found!",
         link: "#",
