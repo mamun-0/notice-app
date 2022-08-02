@@ -1,11 +1,12 @@
-import React from "react";
-import MenuItem from "./MenuItem";
-import "./navbar.style.css";
-import DROPDOWN_2_1 from "./dopdown-2-1";
-import DROPDOWN_2_2 from "./dropdown-2-2";
-import ASSIGN_DROPDOWN from "./AssignDropdown/assignmetDropdown";
-import logo from "../../media/fabicon/logo-1.png";
-import { HashRouter, Link } from "react-router-dom";
+import React from 'react';
+import MenuItem from './MenuItem';
+import './navbar.style.css';
+import DROPDOWN_2_1 from './dopdown-2-1';
+import DROPDOWN_2_2 from './dropdown-2-2';
+import DROPDOWN_3_1 from './dropdown-3-1';
+import ASSIGN_DROPDOWN from './AssignDropdown/assignmetDropdown';
+import logo from '../../media/fabicon/logo-1.png';
+import { HashRouter, Link } from 'react-router-dom';
 class NavBar extends React.Component {
   constructor() {
     super();
@@ -14,7 +15,8 @@ class NavBar extends React.Component {
       Items: MenuItem,
       dropdown2_1: DROPDOWN_2_1,
       dropdown2_2: DROPDOWN_2_2,
-      assignmentDropdown:ASSIGN_DROPDOWN,
+      dropdown3_1: DROPDOWN_3_1,
+      assignmentDropdown: ASSIGN_DROPDOWN,
     };
   }
   handleClick = () => {
@@ -31,8 +33,9 @@ class NavBar extends React.Component {
           </div>
           <ul
             className={
-              this.state.clicked ? "nav-links nav-active" : "nav-links"
-            }>
+              this.state.clicked ? 'nav-links nav-active' : 'nav-links'
+            }
+          >
             <li>
               <div className='dropdown'>
                 <div className='dropbtn'>Online Classes</div>
@@ -57,6 +60,16 @@ class NavBar extends React.Component {
                       ))}
                     </div>
                   </div>
+                  <div id='link1' className='dItem'>
+                    <p className='year_sem'>3-1</p>
+                    <div className='dropdown-two'>
+                      {this.state.dropdown3_1.map(({ id, title, url }) => (
+                        <div key={id} className='dItem'>
+                          <Link to={url}>{title}</Link>
+                        </div>
+                      ))}
+                    </div>
+                  </div>
                 </div>
               </div>
             </li>
@@ -64,14 +77,11 @@ class NavBar extends React.Component {
               <div className='dropdown'>
                 <div className='dropbtn'>{`Assingment & Lab`}</div>
                 <div className='dropdown-one'>
-                  {
-                    this.state.assignmentDropdown.map((item)=>(
-
-                  <div id='link1' className='dItem' key={item.id}>
-                    <Link to={item.url}>{item.title}</Link>
-                  </div>
-                    ))
-                  }
+                  {this.state.assignmentDropdown.map((item) => (
+                    <div id='link1' className='dItem' key={item.id}>
+                      <Link to={item.url}>{item.title}</Link>
+                    </div>
+                  ))}
                 </div>
               </div>
             </li>
