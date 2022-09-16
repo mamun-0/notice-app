@@ -5,7 +5,7 @@
   /* clip-path: polygon(0% 0%, 100% 0%, 100% 90%, 0% 100%); */
 }
 .background-img {
-  background: url("../../media/cse8th.jpg");
+  background: url('http://source.unsplash.com/collection/484351');
   height: 95vh;
   background-position: center;
   background-repeat: no-repeat;
