@@ -233,6 +233,13 @@ const SEMESTERS_FILES = [
         link: 'https://drive.google.com/file/d/1zYIc16dLkhqkSd-Yc9JamqQ9bgfY9L7f/view?usp=sharing',
       },
       {
+        id: 5,
+        teacherName: 'Nasif Ahmed',
+        subjectCode: 'CSE 308',
+        subjectName: 'Compiler Design Lab | Google Classroom',
+        a_tag_title: 'Visit',
+        link: 'https://classroom.google.com/c/NTQ5MzAyNjQzNjA2?cjc=lclk676'
+      {
         id: 3,
         teacherName: 'Faruk Hossen',
         subjectCode: 'CSE 305',
