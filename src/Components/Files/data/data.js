@@ -238,7 +238,8 @@ const SEMESTERS_FILES = [
         subjectCode: 'CSE 308',
         subjectName: 'Compiler Design Lab | Google Classroom',
         a_tag_title: 'Visit',
-        link: 'https://classroom.google.com/c/NTQ5MzAyNjQzNjA2?cjc=lclk676'
+        link: 'https://classroom.google.com/c/NTQ5MzAyNjQzNjA2?cjc=lclk676',
+      },
       {
         id: 3,
         teacherName: 'Faruk Hossen',
