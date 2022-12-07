@@ -365,14 +365,14 @@ const SEMESTERS_FILES = [
     year: '3rd Year',
     semesterName: '2nd Semester [Software]',
     data: [
-      {
-        id: 1,
-        teacherName: 'Md. Nesarul Hoque',
-        subjectCode: 'CSE 310',
-        subjectName: 'Database Management Systems Lab',
-        a_tag_title: 'Download',
-        link: 'https://drive.google.com/file/d/1__LHcZP7JgCrKKecZ3wHHzRtG-7086yp/view?usp=sharing',
-      },
+      // {
+      //   id: 1,
+      //   teacherName: 'Md. Nesarul Hoque',
+      //   subjectCode: 'CSE 310',
+      //   subjectName: 'Database Management Systems Lab',
+      //   a_tag_title: 'Download',
+      //   link: 'https://drive.google.com/file/d/1__LHcZP7JgCrKKecZ3wHHzRtG-7086yp/view?usp=sharing',
+      // },
     ],
   },
   {
