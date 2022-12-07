@@ -315,8 +315,8 @@ const SEMESTERS_FILES = [
         teacherName: 'Nasif Ahmed',
         subjectCode: 'CSE 355',
         subjectName: 'Numerical Methods for Engineers',
-        a_tag_title: 'Not available',
-        link: '',
+        a_tag_title: 'Download',
+        link: 'https://drive.google.com/file/d/1KPnyg9YEbKLJOudvT7oYDPr4NRQOpUkS/view?usp=share_link',
       },
       {
         id: 6,
