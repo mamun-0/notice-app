@@ -347,8 +347,8 @@ const SEMESTERS_FILES = [
         teacherName: 'Nasif Ahmed',
         subjectCode: 'CSE 359',
         subjectName: 'Software Engineering',
-        a_tag_title: 'Not available',
-        link: '',
+        a_tag_title: 'Download',
+        link: 'https://drive.google.com/file/d/1NOFF2gtemrCw_vxrNCh0gOFOmcEP6_0P/view?usp=share_link',
       },
       {
         id: 10,
